@@ -9,9 +9,7 @@ from src.helmet.exception import HelmetException
 from src.helmet.logger import logging
 from mypy_boto3_s3.service_resource import Bucket
 from src.helmet.constants import *
-from dotenv import load_dotenv
 
-load_dotenv() # take environment variables from .env.
 
 MODEL_SAVE_FORMAT = ".pt"
 
