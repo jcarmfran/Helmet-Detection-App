@@ -35,6 +35,15 @@ DATA_TRANSFORMATION_TEST_FILE_NAME = "test.pkl"
 DATA_TRANSFORMATION_TRAIN_SPLIT = 'train'
 DATA_TRANSFORMATION_TEST_SPLIT = 'test'
 
+
+# Model Training Constants 
+TRAINED_MODEL_DIR = 'TrainedModel'
+TRAINED_MODEL_NAME = 'model.pt'
+TRAINED_BATCH_SIZE = 2
+TRAINED_SHUFFLE = False
+TRAINED_NUM_WORKERS = 1
+EPOCH = 1
+
 # Common constants
 use_cuda = torch.cuda.is_available()
 DEVICE = torch.device("cuda" if use_cuda else "cpu")
