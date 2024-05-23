@@ -18,7 +18,7 @@ list_of_files = [
     f"src/{project_name}/components/model_pusher.py",
     ## CONFIGURATION
     f"src/{project_name}/configuration/__init__.py",
-    f"src/{project_name}/config/s3_operations.py",
+    f"src/{project_name}/configuration/s3_operations.py",
     ## CONSTANTS
     f"src/{project_name}/constants/__init__.py",
     ## ENTITY

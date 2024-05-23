@@ -22,4 +22,5 @@ dill==0.3.5.1
 utils
 torch>=1.7.0  # see https://pytorch.org/get-started/locally/ (recommended)
 torchvision>=0.8.1
+python-dotenv
 -e .
