@@ -26,6 +26,15 @@ DATA_INGESTION_TRAIN_DIR = 'train'
 DATA_INGESTION_TEST_DIR = 'test'
 DATA_INGESTION_VALID_DIR = 'valid'
 
+# Data transformation constants 
+DATA_TRANSFORMATION_ARTIFACTS_DIR = 'DataTransformationArtifacts'
+DATA_TRANSFORMATION_TRAIN_DIR = 'Train'
+DATA_TRANSFORMATION_TEST_DIR = 'Test'
+DATA_TRANSFORMATION_TRAIN_FILE_NAME = "train.pkl"
+DATA_TRANSFORMATION_TEST_FILE_NAME = "test.pkl"
+DATA_TRANSFORMATION_TRAIN_SPLIT = 'train'
+DATA_TRANSFORMATION_TEST_SPLIT = 'test'
+
 # Common constants
 use_cuda = torch.cuda.is_available()
 DEVICE = torch.device("cuda" if use_cuda else "cpu")
