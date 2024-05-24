@@ -18,3 +18,15 @@ class DataTransformationArtifacts:
 @dataclass
 class ModelTrainerArtifacts:
     trained_model_path: str
+
+
+@dataclass
+class ModelEvaluationArtifacts:
+    is_model_accepted: bool
+    all_losses: str    
+
+
+@dataclass
+class ModelPusherArtifacts:
+    bucket_name: str
+    s3_model_path: str

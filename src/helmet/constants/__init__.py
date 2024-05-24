@@ -44,6 +44,10 @@ TRAINED_SHUFFLE = False
 TRAINED_NUM_WORKERS = 1
 EPOCH = 1
 
+# Model evaluation constants
+MODEL_EVALUATION_ARTIFACTS_DIR = 'ModelEvaluationArtifacts'
+MODEL_EVALUATION_FILE_NAME = 'loss.csv'
+
 # Common constants
 use_cuda = torch.cuda.is_available()
 DEVICE = torch.device("cuda" if use_cuda else "cpu")
